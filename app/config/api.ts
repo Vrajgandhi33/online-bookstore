@@ -1,3 +1,3 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_BASE_URL = "https://online-bookstore-6rrb.onrender.com/api" || "http://localhost:5000/api";
 
 export { API_BASE_URL };
