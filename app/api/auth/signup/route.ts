@@ -2,7 +2,7 @@ import { type NextRequest, NextResponse } from "next/server";
 
 // Use 127.0.0.1 instead of localhost to avoid IPv6 issues
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:5000/api";
+  "https://online-bookstore-6rrb.onrender.com/api" || "http://127.0.0.1:5000/api";
 
 export async function POST(request: NextRequest) {
   try {
